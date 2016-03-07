@@ -25,15 +25,15 @@ function isValidEmail(value) {
 // TODO:  1. what is a valid address?
 //        2. 6 arguments to a function is ugly...
 //        3. argument order is now based on form order... using
-function isValidAddress(street, city, country, state, zipcode, county) {
+function isValidAddress(_street, _city, _country, _state, _zipcode, _county) {
   // arbitraty use of field to keep linter happy until we answer #1
   let n = 0;
-  if (street === '') n++;
-  if (city === '') n++;
-  if (country === '') n++;
-  if (state === '') n++;
-  if (zipcode === '') n++;
-  if (county === '') n++;
+  if (_street === '') n++;
+  if (_city === '') n++;
+  if (_country === '') n++;
+  if (_state === '') n++;
+  if (_zipcode === '') n++;
+  if (_county === '') n++;
   return true;
 }
 
